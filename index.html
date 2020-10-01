@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico"/>
+    <link href="images/fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Form Clone 1</title>
+</head>
+<body>
+    <div class="box">
+        <div class="img" data-tilt data-tilt-scale="1.1">
+            <img src="images/img-01.png" alt="email">
+        </div>
+        <div class="form-area">
+            <h2>Get in touch</h2>
+            <div class="validate-input">
+                <input class="input" type="text" name="name" id="name" placeholder="Name">
+                <div class="error">
+                    <span class="message"></span>
+                </div>
+            </div>
+            <div class="validate-input"w>
+                <input class="input" type="email" name="email" id="email" placeholder="Email">
+                <div class="error">
+                    <span class="message"></span>
+                </div>
+            </div>
+            <div class="validate-input">
+                <input class="input" type="text" name="subject" id="subject" placeholder="Subject">
+                <div class="error">
+                    <span class="message"></span>
+                </div>
+            </div>
+            <div class="validate-input">
+                <textarea class="input" name="message" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                <div class="error" id="textarea-error">
+                    <span class="message"></span>
+                </div>
+            </div>
+            <button class="btn">Send Email <i class="fas fa-long-arrow-alt-right"></i></button>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/vanilla-tilt.min.js"></script>
+</body>
+</html>
